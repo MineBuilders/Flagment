@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import styles from "./page.module.scss";
 import BaseImage from "@/components/app/BaseImage";
 
 export default function Home() {
