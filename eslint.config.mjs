@@ -19,6 +19,7 @@ const eslintConfig = tseslint.config(
         rules: {
             semi: [ 'error', 'always' ],
             'import/order': [ 'error', { alphabetize: { order: 'asc' } } ],
+            '@typescript-eslint/no-non-null-assertion': ['off'],
         },
     },
 );
